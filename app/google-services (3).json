@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "218312516784",
+    "firebase_url": "https://detectxt.firebaseio.com",
+    "project_id": "detectxt",
+    "storage_bucket": "detectxt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218312516784:android:de90bea9940cb284338775",
+        "android_client_info": {
+          "package_name": "com.example.detectxt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218312516784-aucqt40ai0ur04d005a6krjdr3va6h02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.detectxt",
+            "certificate_hash": "856495be37c0faeec27808c936d125bf05b7339a"
+          }
+        },
+        {
+          "client_id": "218312516784-jo559n5ppsutkppf4v0efaenkjs4vrs2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsmZEklwiT232ecVQBRxhhy9f6I10_lyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218312516784-jo559n5ppsutkppf4v0efaenkjs4vrs2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

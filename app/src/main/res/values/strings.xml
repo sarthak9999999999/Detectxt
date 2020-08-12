@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Detectxt</string>
+    <string name="no_text_image">Oops! Looks Like the picture is without any text!</string>
+</resources>

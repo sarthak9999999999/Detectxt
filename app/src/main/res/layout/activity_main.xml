@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:id="@+id/display_image"
+       android:layout_width="match_parent"
+       android:layout_height="500dp">
+
+
+   </ImageView>
+
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/text_display_card"
+       android:layout_width="match_parent"
+       android:layout_height="220dp"
+       android:layout_below="@id/display_image"
+       android:layout_marginTop="10dp"
+       app:cardCornerRadius="20dp"
+       app:cardElevation="12dp"
+       app:cardBackgroundColor="#DA333335"
+       android:visibility="invisible">
+
+
+      <TextView
+          android:id="@+id/text_recogn"
+          android:layout_width="match_parent"
+          android:layout_height="220dp"
+          android:text="Detected Text"
+          android:textSize="18dp"
+          android:textColor="#FFFCFC"
+          android:fontFamily="sans-serif"
+          android:paddingLeft="8dp"
+          android:layout_marginTop="4dp">
+
+      </TextView>
+
+   </androidx.cardview.widget.CardView>
+
+   <Button
+       android:id="@+id/select_image"
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+       android:layout_below="@id/display_image"
+       android:layout_marginTop="100dp"
+       android:text="Select Image"
+       android:textAllCaps="false"
+       android:background="#6CCDC4"
+       android:layout_marginLeft="12dp"
+       android:layout_marginRight="12dp">
+
+   </Button>
+
+   <Button
+       android:id="@+id/detect_text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/select_image"
+       android:text="Detect Text!"
+       android:background="#DA0352"
+       android:layout_marginTop="4dp"
+       android:layout_marginLeft="12dp"
+       android:layout_marginRight="12dp">
+
+   </Button>
+
+
+</RelativeLayout>
