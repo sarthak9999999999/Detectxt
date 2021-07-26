@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
 
-                Toast.makeText(MainActivity.this,"Cannot Retrieve Image!",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Cannot get Image!",Toast.LENGTH_LONG).show();
             }
         });
     }
